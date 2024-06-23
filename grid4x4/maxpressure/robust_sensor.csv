@@ -1,0 +1,2 @@
+model_name,mode,episode,travel_time,q_loss,reward,queue,delay,throughoutput
+maxpressure,TRAIN,0,224.8990,0,282.7739,5.0075,2.4751,2326
