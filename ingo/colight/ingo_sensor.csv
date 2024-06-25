@@ -1,0 +1,11 @@
+model_name,mode,episode,travel_time,q_loss,reward,queue,delay,throughoutput
+colight,TRAIN,0,843.6,0.4,-611.06,15.03,0.25,2190
+colight,TRAIN,1,739.4,0.2,-543.72,13.87,0.23,2568
+colight,TRAIN,2,664.2,0.2,-578.89,12.90,0.23,3032
+colight,TRAIN,3,652.5,0.2,-556.51,12.44,0.22,3143
+colight,TRAIN,4,660.4,0.2,-508.30,12.36,0.21,3282
+colight,TRAIN,5,680.8,0.2,-498.90,11.69,0.21,3543
+colight,TRAIN,6,633.4,0.2,-491.65,11.57,0.20,3415
+colight,TRAIN,7,587.7,0.2,-557.40,12.29,0.21,3499
+colight,TRAIN,8,619.5,0.2,-562.19,12.38,0.21,3668
+colight,TRAIN,9,603.1,0.2,-512.63,11.69,0.20,3791
