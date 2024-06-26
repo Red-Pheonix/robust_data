@@ -150,18 +150,18 @@ def make_maps(network_file, case_name, base_title='Test Title', max_color_value=
 #     default_width=0.7
 # )
 
-make_maps(
-    network_file='ingo.net.xml',
-    case_name='ingo_combined',
-    base_title='Case 5 Queue Length Map',
-    max_color_value=50,
-    default_width=0.7
-)
+# make_maps(
+#     network_file='ingo.net.xml',
+#     case_name='ingo_combined',
+#     base_title='Case 5 Queue Length Map',
+#     max_color_value=50,
+#     default_width=0.7
+# )
 
-make_maps(
-    network_file='ingo.net.xml',
-    case_name='ingo_combined_sensor',
-    base_title='Case 6 Queue Length Map',
-    max_color_value=50,
-    default_width=0.7
-)
+# make_maps(
+#     network_file='ingo.net.xml',
+#     case_name='ingo_combined_sensor',
+#     base_title='Case 6 Queue Length Map',
+#     max_color_value=50,
+#     default_width=0.7
+# )
