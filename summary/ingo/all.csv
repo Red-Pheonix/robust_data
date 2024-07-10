@@ -1,0 +1,9 @@
+model_name,case,initial_travel_time,optimum_travel_time,recovery_time,initial_drop
+dqn,ingo_morning,372.1,289.0,5,22.33
+colight,ingo_morning,710.7,516.4,6,27.34
+dqn,ingo_noon,415.5,346.0,9,16.73
+colight,ingo_noon,616.6,507.0,6,17.77
+dqn,ingo_evening,403.4,331.3,9,17.87
+colight,ingo_evening,693.5,519.4,9,25.1
+dqn,ingo_sensor,479.1,362.7,6,24.3
+colight,ingo_sensor,739.4,587.7,8,20.52
