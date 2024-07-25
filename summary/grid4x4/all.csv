@@ -22,4 +22,4 @@ colight,robust_pse_1,190.8,190.2,1,0.31
 mplight,robust_pse_1,239.3,213.2,4,10.91
 dqn,robust_sensor,279.3,179.1,16,35.88
 colight,robust_sensor,199.5,178.3,4,10.63
-mplight,robust_sensor,251.5,201.3,4,19.96
+mplight,robust_sensor,653.2,201.7,17,69.12
