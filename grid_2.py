@@ -8,7 +8,7 @@ DIRECTORY = "grid4x4"
 all_files = glob.glob(os.path.join(DIRECTORY, "**", "*.csv"), recursive=True)
 csv_files = [f for f in all_files if "queue" not in os.path.basename(f)]
 csv_files.sort()
-
+csv_files = [filename.replace("\\", "/") for filename in csv_files]
 
 experiments = {}
 experiments["colight"] = {}
