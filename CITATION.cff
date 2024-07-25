@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Analyzing the robustness of adaptive traffic control
+  system using reinforcement learning for urban traffic flow
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ferdous Al
+    family-names: Rafi
+    email: 1904089@Ce.buet.ac.bd
+    orcid: 'https://orcid.org/0000-0002-8743-3698'
+identifiers:
+  - type: url
+    value: 'https://example.com'
+repository-code: 'https://github.com/Red-Pheonix/robust_data'
+license: MIT
