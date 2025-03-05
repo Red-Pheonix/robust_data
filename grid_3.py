@@ -29,11 +29,12 @@ df["case"] = df["case"].map(case_mapping)
 
 pivot_df = df.pivot(index="case", columns="model_name")
 
+model_names = ["dqn", "mplight", "colight"]
 
-initial_travel_time = pivot_df['initial_travel_time'].reindex(columns=["dqn", "colight", "mplight"])
-min_travel_time = pivot_df['optimum_travel_time'].reindex(columns=["dqn", "colight", "mplight"])
-recovery_time = pivot_df['recovery_time'].reindex(columns=["dqn", "colight", "mplight"])
-initial_drop = pivot_df['initial_drop'].reindex(columns=["dqn", "colight", "mplight"])
+initial_travel_time = pivot_df['initial_travel_time'].reindex(columns=model_names)
+min_travel_time = pivot_df['optimum_travel_time'].reindex(columns=model_names)
+recovery_time = pivot_df['recovery_time'].reindex(columns=model_names)
+initial_drop = pivot_df['initial_drop'].reindex(columns=model_names)
 
 initial_travel_time.to_csv(INITIAL_DIRECTORY)
 min_travel_time.to_csv(OPTIMUM_DIRECTORY)
